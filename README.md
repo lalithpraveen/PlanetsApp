@@ -1,6 +1,8 @@
-In this project, let's build a **Planets App** by applying the concepts we have learned till now.
+In this project, I built a **Planets App** by using React Slick . https://react-slick.neostack.com/
 
-### Refer to the video below:
+**Live Link** https://planetsslider.ccbp.tech/
+
+### Here is the Output:
 
 <br/>
 
@@ -10,14 +12,6 @@ In this project, let's build a **Planets App** by applying the concepts we have 
   </video>
 </div>
 
-### Design Files
-
-<details>
-<summary>Click to view</summary>
-
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px)](https://assets.ccbp.in/frontend/content/react-js/planets-app-lg-output.png)
-
-</details>
 
 ### Set Up Instructions
 
@@ -31,12 +25,12 @@ In this project, let's build a **Planets App** by applying the concepts we have 
 ### Completion Instructions
 
 <details>
-<summary>Functionality to be added</summary>
+<summary>Functionality that are added</summary>
 <br/>
 
-The app must have the following functionalities
+The app have the following functionalities
 
-- `planetsList` should be displayed using **React Slick**
+- `planetsList` be displayed using **React Slick**
 - The `PlanetSlider` component is provided with `planetsList`. It consists of a list of planet item objects with the following properties in each planet item object
 
   | Key         | Data Type |
@@ -46,8 +40,8 @@ The app must have the following functionalities
   | imageUrl    | String    |
   | description | String    |
 
-- When the next button is clicked on the page, the next planet item details in the planetsList should be displayed
-- When the previous button is clicked on the page, the previous planet item details in the planetsList should be displayed <br/>
+- When the next button is clicked on the page, the next planet item details in the planetsList be displayed
+- When the previous button is clicked on the page, the previous planet item details in the planetsList be displayed <br/>
 
 <div style="text-align: center;">
     <img src="https://assets.ccbp.in/frontend/content/react-js/planets-app-keys-breakdown.png" alt="planets keys breakdown" style="max-width:100%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
@@ -68,10 +62,10 @@ The app must have the following functionalities
 </details>
 
 <details>
-<summary>Implementation Files</summary>
+<summary>Implemented Files</summary>
 <br/>
 
-Use these files to complete the implementation:
+Used these files for the implementation:
 
 - `src/components/PlanetsSlider/index.js`
 - `src/components/PlanetsSlider/styledComponents.js`
@@ -80,21 +74,6 @@ Use these files to complete the implementation:
 
 </details>
 
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-
-- To build this project, take a look at the <a href='https://learning.ccbp.in/frontend-development/course?c_id=2f4192f7-7495-49ca-a6ce-6b74005e25f1&s_id=c1dc8b6e-864b-4417-9767-471b9e745405&t_id=416f0cab-8425-413b-9157-c7b4d4ae4467' target="_blank">React Slick</a> reading material
-
-**The following instructions are required for the tests to pass**
-
-- **Styled Components** should be used for styling purpose.
-- The app should consist of an HTML container element with `data-testid` as `planets`.
-- The HTML container element with `data-testid` as `planets` should have the Planets background image, which was mentioned in the image URLs.
-- **Roboto** should be applied as `font-family` for **Planets** heading.
-
-</details>
 
 ### Resources
 
@@ -122,10 +101,3 @@ Use these files to complete the implementation:
 - Roboto
 
 </details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
